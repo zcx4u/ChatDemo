@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface friendsCircleCell : UITableViewCell
+@interface FriendsCircleCell : UITableViewCell
 
 @property (strong,nonatomic)UILabel *label;
 @property (strong,nonatomic)UIImageView *rightImage;

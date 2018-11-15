@@ -10,7 +10,7 @@
 #import "MainFrameController.h"
 #import "ContactController.h"
 #import "FindController.h"
-#import "meController.h"
+#import "MeController.h"
 #import <Foundation/Foundation.h>
 @interface AppDelegate ()
 
@@ -25,7 +25,7 @@
     MainFrameController *vc1 = [[MainFrameController alloc]init];
     ContactController *vc2 = [[ContactController alloc]init];
     FindController *vc3 = [[FindController alloc]init];
-    meController *vc4 = [[meController alloc]init];
+    MeController *vc4 = [[MeController alloc]init];
    
     UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:vc1];
     UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:vc2];

@@ -6,9 +6,9 @@
 //  Copyright © 2018 zcx. All rights reserved.
 //
 
-#import "myView.h"
+#import "MyView.h"
 
-@implementation myView
+@implementation MyView
 
 /*
 // Only override drawRect: if you perform custom drawing.

@@ -6,9 +6,9 @@
 //  Copyright © 2018 zcx. All rights reserved.
 //
 
-#import "friendsCircleCell.h"
+#import "FriendsCircleCell.h"
 
-@implementation friendsCircleCell
+@implementation FriendsCircleCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

@@ -6,16 +6,16 @@
 //  Copyright © 2018 zcx. All rights reserved.
 //
 
-#import "popFrame.h"
+#import "PopFrame.h"
 #import "MasonryVC.h"
-@interface popFrame()
+@interface PopFrame()
 //@property NSArray *img;
 //@property NSArray *name;
 
 @end
 
 
-@implementation popFrame
+@implementation PopFrame
 
 /*
  // Only override drawRect: if you perform custom drawing.

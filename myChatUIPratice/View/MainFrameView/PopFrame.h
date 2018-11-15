@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface popFrame : UIView
+@interface PopFrame : UIView
 @property NSArray *img;
 @property NSArray *name;
 @property id<clickDelegate> delegate;

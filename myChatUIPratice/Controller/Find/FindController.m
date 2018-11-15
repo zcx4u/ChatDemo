@@ -8,7 +8,7 @@
 
 #import "FindController.h"
 #import "MyViewController.h"
-#import "friendsCircleCell.h"
+#import "FriendsCircleCell.h"
 #import "Masonry.h"
 @interface FindController ()<UITableViewDelegate,UITableViewDataSource>
 @property NSArray *items;
@@ -23,7 +23,7 @@
     // Do any additional setup after loading the view.
   //带分节的表视图。每个cell导航到新页
 //    特殊的cell注册为y特别的标识符
-    [_table registerClass:[friendsCircleCell class] forCellReuseIdentifier:@"friendsCircle"];
+    [_table registerClass:[FriendsCircleCell class] forCellReuseIdentifier:@"friendsCircle"];
     UIScreen *screen = [UIScreen mainScreen];
     self.navigationItem.title = @"发现";
     UIBarButtonItem * backButtonItem = [[UIBarButtonItem alloc] init];
@@ -75,7 +75,7 @@
     NSDictionary *dict = arr[row];
     if(section == 0&&row == 0)
     {
-        friendsCircleCell*  cell = [[friendsCircleCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"friendsCircle"];
+        FriendsCircleCell*  cell = [[FriendsCircleCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"friendsCircle"];
         cell.textLabel.text = dict[@"name"];
         cell.imageView.image = [UIImage imageNamed:dict[@"img"]];
         cell.rightImage.image = [UIImage imageNamed:@"photo"];

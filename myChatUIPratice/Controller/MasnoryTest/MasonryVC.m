@@ -8,9 +8,9 @@
 
 #import "MasonryVC.h"
 #import "Masonry.h"
-#import "myView.h"
+#import "MyView.h"
 @interface MasonryVC ()
-@property myView *view1;
+@property MyView *view1;
 @end
 
 @implementation MasonryVC
@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.view setBackgroundColor:UIColor.grayColor];
-     _view1 = [[myView alloc]init];
+     _view1 = [[MyView alloc]init];
     //[_view1 setBackgroundColor:UIColor.yellowColor];
 //    UIImage *myImage = [[UIImage alloc]initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://127.0.0.1/123.png"]]];
 //    UIImageView *image = [[UIImageView alloc]initWithImage:myImage];
@@ -71,7 +71,7 @@
 - (void)updateViewConstraints {
     [super updateViewConstraints];
 }
--(void)test:(myView*)view{
+-(void)test:(MyView*)view{
     //return;
     NSLog(@"view.frame.orign = %f,%f ",view.frame.origin.x,view.frame.origin.y);
     NSLog(@"view frame.size = %f,%f ",view.frame.size.width,view.frame.size.height);

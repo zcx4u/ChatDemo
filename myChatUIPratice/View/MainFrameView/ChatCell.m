@@ -6,9 +6,9 @@
 //  Copyright © 2018 zcx. All rights reserved.
 //
 
-#import "chatCell.h"
+#import "ChatCell.h"
 
-@implementation chatCell
+@implementation ChatCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

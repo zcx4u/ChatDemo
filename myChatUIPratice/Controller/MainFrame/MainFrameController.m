@@ -8,10 +8,10 @@
 
 #import "MainFrameController.h"
 #import "MyViewController.h"
-#import "chatCell.h"
+#import "ChatCell.h"
 #import "DXPopover.h"
 #import "MasonryVC.h"
-#import "popFrame.h"
+#import "PopFrame.h"
 #import "Masonry.h"
 @interface MainFrameController ()<UITableViewDelegate,UITableViewDataSource,clickDelegate>
 @property NSArray *items;
@@ -23,14 +23,14 @@
 @property (strong,nonatomic)UIBarButtonItem *right;
 @property NSArray *img;
 @property NSArray *name;
-@property popFrame *pop;
+@property PopFrame *pop;
 @end
 
 @implementation MainFrameController
 - (void)viewDidLoad {
     [super viewDidLoad];
     //    注册cell
-    [_table registerClass:[chatCell class] forCellReuseIdentifier:@"chatCell"];
+    [_table registerClass:[ChatCell class] forCellReuseIdentifier:@"chatCell"];
     UIScreen *screen = [UIScreen mainScreen];
     _right = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"barbuttonicon_add_30x30_"] style:UIBarButtonItemStyleDone target:self action:@selector(addPopButton:event:)];
     [_right setTintColor:UIColor.whiteColor];
@@ -49,7 +49,7 @@
     [self.view addSubview:_table];
     _img = @[@"contacts_add_newmessage_30x30_",@"barbuttonicon_add_cube_30x30_",@"contacts_add_scan_30x30_",@"barbuttonicon_add_30x30_"];
     _name = @[@"发起群聊",@"添加朋友",@"扫一扫",@"收付款"];
-    _pop = [[popFrame alloc]initWithFrame:CGRectMake(0, 0, 140, 180)];
+    _pop = [[PopFrame alloc]initWithFrame:CGRectMake(0, 0, 140, 180)];
     _pop.img = _img;
     _pop.name = _name;
     _pop.delegate = self;
@@ -63,7 +63,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *myCell=[self tableView:tableView cellForRowAtIndexPath:indexPath];//获取当前indexPath中的cell实例
-    if( [myCell isKindOfClass:[chatCell class]] ){
+    if( [myCell isKindOfClass:[ChatCell class]] ){
         return 80;
     }else
     {
@@ -73,11 +73,11 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    chatCell *cell =  [tableView dequeueReusableCellWithIdentifier:@"chatCell"];
+    ChatCell *cell =  [tableView dequeueReusableCellWithIdentifier:@"chatCell"];
     
     if(!cell)
     {
-        cell = [[chatCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"chatCell"];
+        cell = [[ChatCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"chatCell"];
     }
     NSArray *names =@[@"DearBruin",@"饿了么",@"XX团购分享群",@"北京地铁",@"爱奇艺"];
     NSArray *infos =@[@"alloc]initWithStyle",@"开发实现Label中多颜色多字体",@" 东西捡不起来在线等急 ",@" 明明是没有进去的路 恭喜 ",@" sdasdasda",@"aaa sdsds sadfdfdsfsdfsdsad",@"dsagfhfghgfhfghfgjdas sdajfj hgfhfg gfhgf hgfhfg sd ",@"UITableViewCellAccessoryNone"];

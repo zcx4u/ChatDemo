@@ -15,18 +15,18 @@
 		0541484E21798399009EF8F6 /* MainFrameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0541484D21798399009EF8F6 /* MainFrameController.m */; };
 		05414851217983B9009EF8F6 /* ContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05414850217983B9009EF8F6 /* ContactController.m */; };
 		0541485421798407009EF8F6 /* FindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0541485321798407009EF8F6 /* FindController.m */; };
-		054148572179841A009EF8F6 /* meController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054148562179841A009EF8F6 /* meController.m */; };
+		054148572179841A009EF8F6 /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054148562179841A009EF8F6 /* MeController.m */; };
 		0541485C2179A376009EF8F6 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0541485B2179A376009EF8F6 /* MyViewController.m */; };
 		0541485E2179B76E009EF8F6 /* find.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0541485D2179B76E009EF8F6 /* find.plist */; };
 		05542EE7217DC35E00251E46 /* addressList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05542EE6217DC35E00251E46 /* addressList.plist */; };
-		055A5B01217EB9FC00A29555 /* meCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B00217EB9FC00A29555 /* meCell.m */; };
-		055A5B04217EBA4100A29555 /* friendsCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B03217EBA4100A29555 /* friendsCircleCell.m */; };
+		055A5B01217EB9FC00A29555 /* MeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B00217EB9FC00A29555 /* MeCell.m */; };
+		055A5B04217EBA4100A29555 /* FriendsCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B03217EBA4100A29555 /* FriendsCircleCell.m */; };
 		055A5B06217F09AB00A29555 /* meList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 055A5B05217F09AB00A29555 /* meList.plist */; };
 		055A5B08217F219B00A29555 /* mainList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 055A5B07217F219B00A29555 /* mainList.plist */; };
-		055A5B0B217F21D000A29555 /* chatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B0A217F21D000A29555 /* chatCell.m */; };
-		05A17BA4219D100500B41139 /* popFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A17BA3219D100500B41139 /* popFrame.m */; };
+		055A5B0B217F21D000A29555 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B0A217F21D000A29555 /* ChatCell.m */; };
+		05A17BA4219D100500B41139 /* PopFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A17BA3219D100500B41139 /* PopFrame.m */; };
 		05AB6D1421899CF900F2BE0E /* MasonryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AB6D1321899CF900F2BE0E /* MasonryVC.m */; };
-		05AB6D17218B4CA900F2BE0E /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AB6D16218B4CA900F2BE0E /* myView.m */; };
+		05AB6D17218B4CA900F2BE0E /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AB6D16218B4CA900F2BE0E /* MyView.m */; };
 		9772EE2F00379DADFECF9C7B /* libPods-myChatUIPratice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E3722FD9395E6CC64101B0 /* libPods-myChatUIPratice.a */; };
 /* End PBXBuildFile section */
 
@@ -45,26 +45,26 @@
 		05414850217983B9009EF8F6 /* ContactController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactController.m; sourceTree = "<group>"; };
 		0541485221798407009EF8F6 /* FindController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindController.h; sourceTree = "<group>"; };
 		0541485321798407009EF8F6 /* FindController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindController.m; sourceTree = "<group>"; };
-		054148552179841A009EF8F6 /* meController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = meController.h; sourceTree = "<group>"; };
-		054148562179841A009EF8F6 /* meController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meController.m; sourceTree = "<group>"; };
+		054148552179841A009EF8F6 /* MeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeController.h; sourceTree = "<group>"; };
+		054148562179841A009EF8F6 /* MeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeController.m; sourceTree = "<group>"; };
 		0541485A2179A376009EF8F6 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		0541485B2179A376009EF8F6 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		0541485D2179B76E009EF8F6 /* find.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = find.plist; sourceTree = "<group>"; };
 		05542EE6217DC35E00251E46 /* addressList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = addressList.plist; sourceTree = "<group>"; };
-		055A5AFF217EB9FC00A29555 /* meCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = meCell.h; sourceTree = "<group>"; };
-		055A5B00217EB9FC00A29555 /* meCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meCell.m; sourceTree = "<group>"; };
-		055A5B02217EBA4100A29555 /* friendsCircleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = friendsCircleCell.h; sourceTree = "<group>"; };
-		055A5B03217EBA4100A29555 /* friendsCircleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = friendsCircleCell.m; sourceTree = "<group>"; };
+		055A5AFF217EB9FC00A29555 /* MeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeCell.h; sourceTree = "<group>"; };
+		055A5B00217EB9FC00A29555 /* MeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeCell.m; sourceTree = "<group>"; };
+		055A5B02217EBA4100A29555 /* FriendsCircleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsCircleCell.h; sourceTree = "<group>"; };
+		055A5B03217EBA4100A29555 /* FriendsCircleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsCircleCell.m; sourceTree = "<group>"; };
 		055A5B05217F09AB00A29555 /* meList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = meList.plist; sourceTree = "<group>"; };
 		055A5B07217F219B00A29555 /* mainList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = mainList.plist; sourceTree = "<group>"; };
-		055A5B09217F21D000A29555 /* chatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatCell.h; sourceTree = "<group>"; };
-		055A5B0A217F21D000A29555 /* chatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatCell.m; sourceTree = "<group>"; };
-		05A17BA2219D100500B41139 /* popFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popFrame.h; sourceTree = "<group>"; };
-		05A17BA3219D100500B41139 /* popFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popFrame.m; sourceTree = "<group>"; };
+		055A5B09217F21D000A29555 /* ChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		055A5B0A217F21D000A29555 /* ChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		05A17BA2219D100500B41139 /* PopFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopFrame.h; sourceTree = "<group>"; };
+		05A17BA3219D100500B41139 /* PopFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopFrame.m; sourceTree = "<group>"; };
 		05AB6D1221899CF900F2BE0E /* MasonryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC.h; sourceTree = "<group>"; };
 		05AB6D1321899CF900F2BE0E /* MasonryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC.m; sourceTree = "<group>"; };
-		05AB6D15218B4CA900F2BE0E /* myView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
-		05AB6D16218B4CA900F2BE0E /* myView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
+		05AB6D15218B4CA900F2BE0E /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		05AB6D16218B4CA900F2BE0E /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 		208D1930FB73317B718BBA2A /* Pods-myChatUIPratice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myChatUIPratice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myChatUIPratice/Pods-myChatUIPratice.debug.xcconfig"; sourceTree = "<group>"; };
 		2FB0B8D824FD7C67AD9F7485 /* Pods-myChatUIPratice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myChatUIPratice.release.xcconfig"; path = "Pods/Target Support Files/Pods-myChatUIPratice/Pods-myChatUIPratice.release.xcconfig"; sourceTree = "<group>"; };
 		34E3722FD9395E6CC64101B0 /* libPods-myChatUIPratice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myChatUIPratice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,8 +175,8 @@
 		055A5B112181681200A29555 /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				054148552179841A009EF8F6 /* meController.h */,
-				054148562179841A009EF8F6 /* meController.m */,
+				054148552179841A009EF8F6 /* MeController.h */,
+				054148562179841A009EF8F6 /* MeController.m */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -193,10 +193,10 @@
 		05A17B9E219D0D4500B41139 /* MainFrameView */ = {
 			isa = PBXGroup;
 			children = (
-				055A5B09217F21D000A29555 /* chatCell.h */,
-				055A5B0A217F21D000A29555 /* chatCell.m */,
-				05A17BA2219D100500B41139 /* popFrame.h */,
-				05A17BA3219D100500B41139 /* popFrame.m */,
+				055A5B09217F21D000A29555 /* ChatCell.h */,
+				055A5B0A217F21D000A29555 /* ChatCell.m */,
+				05A17BA2219D100500B41139 /* PopFrame.h */,
+				05A17BA3219D100500B41139 /* PopFrame.m */,
 			);
 			path = MainFrameView;
 			sourceTree = "<group>";
@@ -204,8 +204,8 @@
 		05A17B9F219D0DCE00B41139 /* FindView */ = {
 			isa = PBXGroup;
 			children = (
-				055A5B02217EBA4100A29555 /* friendsCircleCell.h */,
-				055A5B03217EBA4100A29555 /* friendsCircleCell.m */,
+				055A5B02217EBA4100A29555 /* FriendsCircleCell.h */,
+				055A5B03217EBA4100A29555 /* FriendsCircleCell.m */,
 			);
 			path = FindView;
 			sourceTree = "<group>";
@@ -213,8 +213,8 @@
 		05A17BA0219D0DD900B41139 /* MeView */ = {
 			isa = PBXGroup;
 			children = (
-				055A5AFF217EB9FC00A29555 /* meCell.h */,
-				055A5B00217EB9FC00A29555 /* meCell.m */,
+				055A5AFF217EB9FC00A29555 /* MeCell.h */,
+				055A5B00217EB9FC00A29555 /* MeCell.m */,
 			);
 			path = MeView;
 			sourceTree = "<group>";
@@ -229,8 +229,8 @@
 		05A17BA5219D251E00B41139 /* MasnoryTestView */ = {
 			isa = PBXGroup;
 			children = (
-				05AB6D15218B4CA900F2BE0E /* myView.h */,
-				05AB6D16218B4CA900F2BE0E /* myView.m */,
+				05AB6D15218B4CA900F2BE0E /* MyView.h */,
+				05AB6D16218B4CA900F2BE0E /* MyView.m */,
 			);
 			path = MasnoryTestView;
 			sourceTree = "<group>";
@@ -388,14 +388,14 @@
 				0541484E21798399009EF8F6 /* MainFrameController.m in Sources */,
 				0541484221797D43009EF8F6 /* main.m in Sources */,
 				0541485C2179A376009EF8F6 /* MyViewController.m in Sources */,
-				055A5B04217EBA4100A29555 /* friendsCircleCell.m in Sources */,
+				055A5B04217EBA4100A29555 /* FriendsCircleCell.m in Sources */,
 				05414851217983B9009EF8F6 /* ContactController.m in Sources */,
-				05A17BA4219D100500B41139 /* popFrame.m in Sources */,
-				055A5B0B217F21D000A29555 /* chatCell.m in Sources */,
-				054148572179841A009EF8F6 /* meController.m in Sources */,
-				055A5B01217EB9FC00A29555 /* meCell.m in Sources */,
+				05A17BA4219D100500B41139 /* PopFrame.m in Sources */,
+				055A5B0B217F21D000A29555 /* ChatCell.m in Sources */,
+				054148572179841A009EF8F6 /* MeController.m in Sources */,
+				055A5B01217EB9FC00A29555 /* MeCell.m in Sources */,
 				0541485421798407009EF8F6 /* FindController.m in Sources */,
-				05AB6D17218B4CA900F2BE0E /* myView.m in Sources */,
+				05AB6D17218B4CA900F2BE0E /* MyView.m in Sources */,
 				0541483421797D42009EF8F6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

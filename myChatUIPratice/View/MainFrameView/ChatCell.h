@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface chatCell : UITableViewCell
+@interface ChatCell : UITableViewCell
 @property UIImageView *photo;
 @property UILabel *name;
 @property UILabel *info;
