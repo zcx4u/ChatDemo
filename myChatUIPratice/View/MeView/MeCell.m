@@ -7,7 +7,6 @@
 //
 
 #import "MeCell.h"
-
 @implementation MeCell
 
 - (void)awakeFromNib {
