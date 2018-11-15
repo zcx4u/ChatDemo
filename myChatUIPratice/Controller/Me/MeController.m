@@ -8,7 +8,7 @@
 
 #import "MeController.h"
 #import "MyViewController.h"
-#import "MeCell.h"
+#import "MyMeCell.h"
 #import "Masonry.h"
 @interface MeController ()<UITableViewDataSource,UITableViewDelegate>
 @property NSArray *items;
@@ -39,7 +39,7 @@
     [_table setBackgroundColor:UIColor.groupTableViewBackgroundColor];
     _table.tableFooterView =view;
 //    注册特殊的cell
-    [_table registerClass:[MeCell class] forCellReuseIdentifier:@"meCell"];
+    [_table registerClass:[MyMeCell class] forCellReuseIdentifier:@"meCell"];
     [self.view addSubview:_table];
 }
 //返回节数
@@ -77,7 +77,7 @@
     NSDictionary *dict = arr[row];
     if(section == 0&&row == 0)
     {
-        MeCell*  cell = [[MeCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"meCell"];
+        MyMeCell*  cell = [[MyMeCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"meCell"];
         cell.photo.image = [UIImage imageNamed:dict[@"photo"]];
         cell.name.text = dict[@"name"];
         cell.info.text = dict[@"info"];
@@ -109,7 +109,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *myCell=[self tableView:tableView cellForRowAtIndexPath:indexPath];//获取当前indexPath中的cell实例
-    if( [myCell isKindOfClass:[MeCell class]] ){
+    if( [myCell isKindOfClass:[MyMeCell class]] ){
         return 80;
     }else
     {

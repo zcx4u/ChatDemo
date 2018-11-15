@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MeCell : UITableViewCell
+@interface MyMeCell : UITableViewCell
 @property UIImageView *photo;
 @property UILabel *name;
 @property UILabel *info;

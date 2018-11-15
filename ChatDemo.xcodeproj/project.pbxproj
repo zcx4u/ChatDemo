@@ -19,19 +19,19 @@
 		0541485C2179A376009EF8F6 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0541485B2179A376009EF8F6 /* MyViewController.m */; };
 		0541485E2179B76E009EF8F6 /* find.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0541485D2179B76E009EF8F6 /* find.plist */; };
 		05542EE7217DC35E00251E46 /* addressList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05542EE6217DC35E00251E46 /* addressList.plist */; };
-		055A5B01217EB9FC00A29555 /* MeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B00217EB9FC00A29555 /* MeCell.m */; };
 		055A5B04217EBA4100A29555 /* FriendsCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B03217EBA4100A29555 /* FriendsCircleCell.m */; };
 		055A5B06217F09AB00A29555 /* meList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 055A5B05217F09AB00A29555 /* meList.plist */; };
 		055A5B08217F219B00A29555 /* mainList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 055A5B07217F219B00A29555 /* mainList.plist */; };
 		055A5B0B217F21D000A29555 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B0A217F21D000A29555 /* ChatCell.m */; };
 		05A17BA4219D100500B41139 /* PopFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A17BA3219D100500B41139 /* PopFrame.m */; };
+		05A17BA6219D7CD100B41139 /* MyMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B00217EB9FC00A29555 /* MyMeCell.m */; };
 		05AB6D1421899CF900F2BE0E /* MasonryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AB6D1321899CF900F2BE0E /* MasonryVC.m */; };
 		05AB6D17218B4CA900F2BE0E /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AB6D16218B4CA900F2BE0E /* MyView.m */; };
 		9772EE2F00379DADFECF9C7B /* libPods-myChatUIPratice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E3722FD9395E6CC64101B0 /* libPods-myChatUIPratice.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0541482F21797D42009EF8F6 /* myChatUIPratice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myChatUIPratice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0541482F21797D42009EF8F6 /* ChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0541483221797D42009EF8F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0541483321797D42009EF8F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0541483921797D42009EF8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,8 +51,8 @@
 		0541485B2179A376009EF8F6 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		0541485D2179B76E009EF8F6 /* find.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = find.plist; sourceTree = "<group>"; };
 		05542EE6217DC35E00251E46 /* addressList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = addressList.plist; sourceTree = "<group>"; };
-		055A5AFF217EB9FC00A29555 /* MeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeCell.h; sourceTree = "<group>"; };
-		055A5B00217EB9FC00A29555 /* MeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeCell.m; sourceTree = "<group>"; };
+		055A5AFF217EB9FC00A29555 /* MyMeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMeCell.h; sourceTree = "<group>"; };
+		055A5B00217EB9FC00A29555 /* MyMeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMeCell.m; sourceTree = "<group>"; };
 		055A5B02217EBA4100A29555 /* FriendsCircleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsCircleCell.h; sourceTree = "<group>"; };
 		055A5B03217EBA4100A29555 /* FriendsCircleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsCircleCell.m; sourceTree = "<group>"; };
 		055A5B05217F09AB00A29555 /* meList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = meList.plist; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		0541483021797D42009EF8F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0541482F21797D42009EF8F6 /* myChatUIPratice.app */,
+				0541482F21797D42009EF8F6 /* ChatDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,8 +213,8 @@
 		05A17BA0219D0DD900B41139 /* MeView */ = {
 			isa = PBXGroup;
 			children = (
-				055A5AFF217EB9FC00A29555 /* MeCell.h */,
-				055A5B00217EB9FC00A29555 /* MeCell.m */,
+				055A5AFF217EB9FC00A29555 /* MyMeCell.h */,
+				055A5B00217EB9FC00A29555 /* MyMeCell.m */,
 			);
 			path = MeView;
 			sourceTree = "<group>";
@@ -264,9 +264,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0541482E21797D42009EF8F6 /* myChatUIPratice */ = {
+		0541482E21797D42009EF8F6 /* ChatDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0541484521797D43009EF8F6 /* Build configuration list for PBXNativeTarget "myChatUIPratice" */;
+			buildConfigurationList = 0541484521797D43009EF8F6 /* Build configuration list for PBXNativeTarget "ChatDemo" */;
 			buildPhases = (
 				202BD5F57AB8931C5EA2EA17 /* [CP] Check Pods Manifest.lock */,
 				0541482B21797D42009EF8F6 /* Sources */,
@@ -278,9 +278,9 @@
 			);
 			dependencies = (
 			);
-			name = myChatUIPratice;
+			name = ChatDemo;
 			productName = myChatUIPratice;
-			productReference = 0541482F21797D42009EF8F6 /* myChatUIPratice.app */;
+			productReference = 0541482F21797D42009EF8F6 /* ChatDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -297,7 +297,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0541482A21797D42009EF8F6 /* Build configuration list for PBXProject "myChatUIPratice" */;
+			buildConfigurationList = 0541482A21797D42009EF8F6 /* Build configuration list for PBXProject "ChatDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -310,7 +310,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0541482E21797D42009EF8F6 /* myChatUIPratice */,
+				0541482E21797D42009EF8F6 /* ChatDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -384,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A17BA6219D7CD100B41139 /* MyMeCell.m in Sources */,
 				05AB6D1421899CF900F2BE0E /* MasonryVC.m in Sources */,
 				0541484E21798399009EF8F6 /* MainFrameController.m in Sources */,
 				0541484221797D43009EF8F6 /* main.m in Sources */,
@@ -393,7 +394,6 @@
 				05A17BA4219D100500B41139 /* PopFrame.m in Sources */,
 				055A5B0B217F21D000A29555 /* ChatCell.m in Sources */,
 				054148572179841A009EF8F6 /* MeController.m in Sources */,
-				055A5B01217EB9FC00A29555 /* MeCell.m in Sources */,
 				0541485421798407009EF8F6 /* FindController.m in Sources */,
 				05AB6D17218B4CA900F2BE0E /* MyView.m in Sources */,
 				0541483421797D42009EF8F6 /* AppDelegate.m in Sources */,
@@ -581,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0541482A21797D42009EF8F6 /* Build configuration list for PBXProject "myChatUIPratice" */ = {
+		0541482A21797D42009EF8F6 /* Build configuration list for PBXProject "ChatDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0541484321797D43009EF8F6 /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0541484521797D43009EF8F6 /* Build configuration list for PBXNativeTarget "myChatUIPratice" */ = {
+		0541484521797D43009EF8F6 /* Build configuration list for PBXNativeTarget "ChatDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0541484621797D43009EF8F6 /* Debug */,

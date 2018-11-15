@@ -6,8 +6,8 @@
 //  Copyright © 2018 zcx. All rights reserved.
 //
 
-#import "MeCell.h"
-@implementation MeCell
+#import "MyMeCell.h"
+@implementation MyMeCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
