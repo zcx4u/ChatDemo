@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0541483421797D42009EF8F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0541483321797D42009EF8F6 /* AppDelegate.m */; };
+		0541483A21797D42009EF8F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0541483821797D42009EF8F6 /* Main.storyboard */; };
+		0541483C21797D43009EF8F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0541483B21797D43009EF8F6 /* Assets.xcassets */; };
+		0541483F21797D43009EF8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0541483D21797D43009EF8F6 /* LaunchScreen.storyboard */; };
+		0541484221797D43009EF8F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0541484121797D43009EF8F6 /* main.m */; };
+		0541484E21798399009EF8F6 /* MainFrameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0541484D21798399009EF8F6 /* MainFrameController.m */; };
+		05414851217983B9009EF8F6 /* ContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05414850217983B9009EF8F6 /* ContactController.m */; };
+		0541485421798407009EF8F6 /* FindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0541485321798407009EF8F6 /* FindController.m */; };
+		054148572179841A009EF8F6 /* meController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054148562179841A009EF8F6 /* meController.m */; };
+		0541485C2179A376009EF8F6 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0541485B2179A376009EF8F6 /* MyViewController.m */; };
+		0541485E2179B76E009EF8F6 /* find.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0541485D2179B76E009EF8F6 /* find.plist */; };
+		05542EE7217DC35E00251E46 /* addressList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05542EE6217DC35E00251E46 /* addressList.plist */; };
+		055A5B01217EB9FC00A29555 /* meCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B00217EB9FC00A29555 /* meCell.m */; };
+		055A5B04217EBA4100A29555 /* friendsCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B03217EBA4100A29555 /* friendsCircleCell.m */; };
+		055A5B06217F09AB00A29555 /* meList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 055A5B05217F09AB00A29555 /* meList.plist */; };
+		055A5B08217F219B00A29555 /* mainList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 055A5B07217F219B00A29555 /* mainList.plist */; };
+		055A5B0B217F21D000A29555 /* chatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A5B0A217F21D000A29555 /* chatCell.m */; };
+		05A17BA4219D100500B41139 /* popFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A17BA3219D100500B41139 /* popFrame.m */; };
+		05AB6D1421899CF900F2BE0E /* MasonryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AB6D1321899CF900F2BE0E /* MasonryVC.m */; };
+		05AB6D17218B4CA900F2BE0E /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AB6D16218B4CA900F2BE0E /* myView.m */; };
+		9772EE2F00379DADFECF9C7B /* libPods-myChatUIPratice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E3722FD9395E6CC64101B0 /* libPods-myChatUIPratice.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0541482F21797D42009EF8F6 /* myChatUIPratice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myChatUIPratice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0541483221797D42009EF8F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0541483321797D42009EF8F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0541483921797D42009EF8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0541483B21797D43009EF8F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0541483E21797D43009EF8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0541484021797D43009EF8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0541484121797D43009EF8F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0541484C21798399009EF8F6 /* MainFrameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainFrameController.h; sourceTree = "<group>"; };
+		0541484D21798399009EF8F6 /* MainFrameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainFrameController.m; sourceTree = "<group>"; };
+		0541484F217983B9009EF8F6 /* ContactController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactController.h; sourceTree = "<group>"; };
+		05414850217983B9009EF8F6 /* ContactController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactController.m; sourceTree = "<group>"; };
+		0541485221798407009EF8F6 /* FindController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindController.h; sourceTree = "<group>"; };
+		0541485321798407009EF8F6 /* FindController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindController.m; sourceTree = "<group>"; };
+		054148552179841A009EF8F6 /* meController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = meController.h; sourceTree = "<group>"; };
+		054148562179841A009EF8F6 /* meController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meController.m; sourceTree = "<group>"; };
+		0541485A2179A376009EF8F6 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		0541485B2179A376009EF8F6 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		0541485D2179B76E009EF8F6 /* find.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = find.plist; sourceTree = "<group>"; };
+		05542EE6217DC35E00251E46 /* addressList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = addressList.plist; sourceTree = "<group>"; };
+		055A5AFF217EB9FC00A29555 /* meCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = meCell.h; sourceTree = "<group>"; };
+		055A5B00217EB9FC00A29555 /* meCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meCell.m; sourceTree = "<group>"; };
+		055A5B02217EBA4100A29555 /* friendsCircleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = friendsCircleCell.h; sourceTree = "<group>"; };
+		055A5B03217EBA4100A29555 /* friendsCircleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = friendsCircleCell.m; sourceTree = "<group>"; };
+		055A5B05217F09AB00A29555 /* meList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = meList.plist; sourceTree = "<group>"; };
+		055A5B07217F219B00A29555 /* mainList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = mainList.plist; sourceTree = "<group>"; };
+		055A5B09217F21D000A29555 /* chatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatCell.h; sourceTree = "<group>"; };
+		055A5B0A217F21D000A29555 /* chatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatCell.m; sourceTree = "<group>"; };
+		05A17BA2219D100500B41139 /* popFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popFrame.h; sourceTree = "<group>"; };
+		05A17BA3219D100500B41139 /* popFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popFrame.m; sourceTree = "<group>"; };
+		05AB6D1221899CF900F2BE0E /* MasonryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryVC.h; sourceTree = "<group>"; };
+		05AB6D1321899CF900F2BE0E /* MasonryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC.m; sourceTree = "<group>"; };
+		05AB6D15218B4CA900F2BE0E /* myView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
+		05AB6D16218B4CA900F2BE0E /* myView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
+		208D1930FB73317B718BBA2A /* Pods-myChatUIPratice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myChatUIPratice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myChatUIPratice/Pods-myChatUIPratice.debug.xcconfig"; sourceTree = "<group>"; };
+		2FB0B8D824FD7C67AD9F7485 /* Pods-myChatUIPratice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myChatUIPratice.release.xcconfig"; path = "Pods/Target Support Files/Pods-myChatUIPratice/Pods-myChatUIPratice.release.xcconfig"; sourceTree = "<group>"; };
+		34E3722FD9395E6CC64101B0 /* libPods-myChatUIPratice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myChatUIPratice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0541482C21797D42009EF8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9772EE2F00379DADFECF9C7B /* libPods-myChatUIPratice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0541482621797D42009EF8F6 = {
+			isa = PBXGroup;
+			children = (
+				0541483121797D42009EF8F6 /* myChatUIPratice */,
+				0541483021797D42009EF8F6 /* Products */,
+				56C6A7BF48280858AF8F467E /* Pods */,
+				B7D876F98C3154BD7D3F6A8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0541483021797D42009EF8F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0541482F21797D42009EF8F6 /* myChatUIPratice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0541483121797D42009EF8F6 /* myChatUIPratice */ = {
+			isa = PBXGroup;
+			children = (
+				055A5AFE217EB91600A29555 /* View */,
+				0541484B21797EB6009EF8F6 /* Controller */,
+				0541483221797D42009EF8F6 /* AppDelegate.h */,
+				0541483321797D42009EF8F6 /* AppDelegate.m */,
+				0541483821797D42009EF8F6 /* Main.storyboard */,
+				0541483B21797D43009EF8F6 /* Assets.xcassets */,
+				0541483D21797D43009EF8F6 /* LaunchScreen.storyboard */,
+				0541484021797D43009EF8F6 /* Info.plist */,
+				0541484121797D43009EF8F6 /* main.m */,
+				0541485D2179B76E009EF8F6 /* find.plist */,
+				05542EE6217DC35E00251E46 /* addressList.plist */,
+				055A5B05217F09AB00A29555 /* meList.plist */,
+				055A5B07217F219B00A29555 /* mainList.plist */,
+			);
+			path = myChatUIPratice;
+			sourceTree = "<group>";
+		};
+		0541484B21797EB6009EF8F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05AB6D0E21899C1B00F2BE0E /* MasnoryTest */,
+				055A5B122181682300A29555 /* WKweb */,
+				055A5B0E218167E000A29555 /* MainFrame */,
+				055A5B0F218167F500A29555 /* Contact */,
+				055A5B102181680A00A29555 /* Find */,
+				055A5B112181681200A29555 /* Me */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		055A5AFE217EB91600A29555 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05A17BA5219D251E00B41139 /* MasnoryTestView */,
+				05A17B9E219D0D4500B41139 /* MainFrameView */,
+				05A17BA1219D0DE100B41139 /* ContactView */,
+				05A17B9F219D0DCE00B41139 /* FindView */,
+				05A17BA0219D0DD900B41139 /* MeView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		055A5B0E218167E000A29555 /* MainFrame */ = {
+			isa = PBXGroup;
+			children = (
+				0541484C21798399009EF8F6 /* MainFrameController.h */,
+				0541484D21798399009EF8F6 /* MainFrameController.m */,
+			);
+			path = MainFrame;
+			sourceTree = "<group>";
+		};
+		055A5B0F218167F500A29555 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				0541484F217983B9009EF8F6 /* ContactController.h */,
+				05414850217983B9009EF8F6 /* ContactController.m */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		055A5B102181680A00A29555 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				0541485221798407009EF8F6 /* FindController.h */,
+				0541485321798407009EF8F6 /* FindController.m */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		055A5B112181681200A29555 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				054148552179841A009EF8F6 /* meController.h */,
+				054148562179841A009EF8F6 /* meController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		055A5B122181682300A29555 /* WKweb */ = {
+			isa = PBXGroup;
+			children = (
+				0541485A2179A376009EF8F6 /* MyViewController.h */,
+				0541485B2179A376009EF8F6 /* MyViewController.m */,
+			);
+			path = WKweb;
+			sourceTree = "<group>";
+		};
+		05A17B9E219D0D4500B41139 /* MainFrameView */ = {
+			isa = PBXGroup;
+			children = (
+				055A5B09217F21D000A29555 /* chatCell.h */,
+				055A5B0A217F21D000A29555 /* chatCell.m */,
+				05A17BA2219D100500B41139 /* popFrame.h */,
+				05A17BA3219D100500B41139 /* popFrame.m */,
+			);
+			path = MainFrameView;
+			sourceTree = "<group>";
+		};
+		05A17B9F219D0DCE00B41139 /* FindView */ = {
+			isa = PBXGroup;
+			children = (
+				055A5B02217EBA4100A29555 /* friendsCircleCell.h */,
+				055A5B03217EBA4100A29555 /* friendsCircleCell.m */,
+			);
+			path = FindView;
+			sourceTree = "<group>";
+		};
+		05A17BA0219D0DD900B41139 /* MeView */ = {
+			isa = PBXGroup;
+			children = (
+				055A5AFF217EB9FC00A29555 /* meCell.h */,
+				055A5B00217EB9FC00A29555 /* meCell.m */,
+			);
+			path = MeView;
+			sourceTree = "<group>";
+		};
+		05A17BA1219D0DE100B41139 /* ContactView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContactView;
+			sourceTree = "<group>";
+		};
+		05A17BA5219D251E00B41139 /* MasnoryTestView */ = {
+			isa = PBXGroup;
+			children = (
+				05AB6D15218B4CA900F2BE0E /* myView.h */,
+				05AB6D16218B4CA900F2BE0E /* myView.m */,
+			);
+			path = MasnoryTestView;
+			sourceTree = "<group>";
+		};
+		05AB6D0E21899C1B00F2BE0E /* MasnoryTest */ = {
+			isa = PBXGroup;
+			children = (
+				05AB6D1221899CF900F2BE0E /* MasonryVC.h */,
+				05AB6D1321899CF900F2BE0E /* MasonryVC.m */,
+			);
+			path = MasnoryTest;
+			sourceTree = "<group>";
+		};
+		56C6A7BF48280858AF8F467E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				208D1930FB73317B718BBA2A /* Pods-myChatUIPratice.debug.xcconfig */,
+				2FB0B8D824FD7C67AD9F7485 /* Pods-myChatUIPratice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7D876F98C3154BD7D3F6A8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34E3722FD9395E6CC64101B0 /* libPods-myChatUIPratice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0541482E21797D42009EF8F6 /* myChatUIPratice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0541484521797D43009EF8F6 /* Build configuration list for PBXNativeTarget "myChatUIPratice" */;
+			buildPhases = (
+				202BD5F57AB8931C5EA2EA17 /* [CP] Check Pods Manifest.lock */,
+				0541482B21797D42009EF8F6 /* Sources */,
+				0541482C21797D42009EF8F6 /* Frameworks */,
+				0541482D21797D42009EF8F6 /* Resources */,
+				9CA84FD9F43981C7229B0ACA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myChatUIPratice;
+			productName = myChatUIPratice;
+			productReference = 0541482F21797D42009EF8F6 /* myChatUIPratice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0541482721797D42009EF8F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = zcx;
+				TargetAttributes = {
+					0541482E21797D42009EF8F6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 0541482A21797D42009EF8F6 /* Build configuration list for PBXProject "myChatUIPratice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0541482621797D42009EF8F6;
+			productRefGroup = 0541483021797D42009EF8F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0541482E21797D42009EF8F6 /* myChatUIPratice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0541482D21797D42009EF8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055A5B06217F09AB00A29555 /* meList.plist in Resources */,
+				055A5B08217F219B00A29555 /* mainList.plist in Resources */,
+				05542EE7217DC35E00251E46 /* addressList.plist in Resources */,
+				0541483F21797D43009EF8F6 /* LaunchScreen.storyboard in Resources */,
+				0541485E2179B76E009EF8F6 /* find.plist in Resources */,
+				0541483C21797D43009EF8F6 /* Assets.xcassets in Resources */,
+				0541483A21797D42009EF8F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		202BD5F57AB8931C5EA2EA17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myChatUIPratice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CA84FD9F43981C7229B0ACA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myChatUIPratice/Pods-myChatUIPratice-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DXPopover/DXPopover.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DXPopover.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myChatUIPratice/Pods-myChatUIPratice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0541482B21797D42009EF8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AB6D1421899CF900F2BE0E /* MasonryVC.m in Sources */,
+				0541484E21798399009EF8F6 /* MainFrameController.m in Sources */,
+				0541484221797D43009EF8F6 /* main.m in Sources */,
+				0541485C2179A376009EF8F6 /* MyViewController.m in Sources */,
+				055A5B04217EBA4100A29555 /* friendsCircleCell.m in Sources */,
+				05414851217983B9009EF8F6 /* ContactController.m in Sources */,
+				05A17BA4219D100500B41139 /* popFrame.m in Sources */,
+				055A5B0B217F21D000A29555 /* chatCell.m in Sources */,
+				054148572179841A009EF8F6 /* meController.m in Sources */,
+				055A5B01217EB9FC00A29555 /* meCell.m in Sources */,
+				0541485421798407009EF8F6 /* FindController.m in Sources */,
+				05AB6D17218B4CA900F2BE0E /* myView.m in Sources */,
+				0541483421797D42009EF8F6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0541483821797D42009EF8F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0541483921797D42009EF8F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0541483D21797D43009EF8F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0541483E21797D43009EF8F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0541484321797D43009EF8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0541484421797D43009EF8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0541484621797D43009EF8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208D1930FB73317B718BBA2A /* Pods-myChatUIPratice.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT46L5LWEN;
+				INFOPLIST_FILE = myChatUIPratice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zcx.myChatUIPratice.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		0541484721797D43009EF8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB0B8D824FD7C67AD9F7485 /* Pods-myChatUIPratice.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT46L5LWEN;
+				INFOPLIST_FILE = myChatUIPratice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zcx.myChatUIPratice.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0541482A21797D42009EF8F6 /* Build configuration list for PBXProject "myChatUIPratice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0541484321797D43009EF8F6 /* Debug */,
+				0541484421797D43009EF8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0541484521797D43009EF8F6 /* Build configuration list for PBXNativeTarget "myChatUIPratice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0541484621797D43009EF8F6 /* Debug */,
+				0541484721797D43009EF8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0541482721797D42009EF8F6 /* Project object */;
+}

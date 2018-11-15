@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>QRCode</key>
+			<string>setting_myQR_18x18_</string>
+			<key>photo</key>
+			<string>photo</string>
+			<key>name</key>
+			<string>DearMrBruin</string>
+			<key>info</key>
+			<string>微信号：XG812810921</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>钱包</string>
+			<key>img</key>
+			<string>MoreMyBankCard_25x25_</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>收藏</string>
+			<key>img</key>
+			<string>MoreMyFavorites_25x25_</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>相册</string>
+			<key>img</key>
+			<string>MoreMyAlbum_25x25_</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>卡包</string>
+			<key>img</key>
+			<string>MyCardPackageIcon_25x25_</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>表情</string>
+			<key>img</key>
+			<string>MoreExpressionShops_25x25_</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>设置</string>
+			<key>img</key>
+			<string>MoreSetting_25x25_</string>
+		</dict>
+	</array>
+</array>
+</plist>
