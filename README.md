@@ -1,6 +1,6 @@
 # ChatDemo
 学习总是从模仿开始
-仿制微信界面Demo，未集成IMSDK
+仿制微信界面Demo，尚未集成IMSDK
 <table>
   <tr>
     <td><img src="https://github.com/zcx4u/ChatDemo/blob/master/pics/chat.png" alt="首页"  width = "200" heigth = "250"/></td>
