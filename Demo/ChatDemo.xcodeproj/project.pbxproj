@@ -65,10 +65,7 @@
 		05AB6D1321899CF900F2BE0E /* MasonryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryVC.m; sourceTree = "<group>"; };
 		05AB6D15218B4CA900F2BE0E /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
 		05AB6D16218B4CA900F2BE0E /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
-		208D1930FB73317B718BBA2A /* Pods-myChatUIPratice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myChatUIPratice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myChatUIPratice/Pods-myChatUIPratice.debug.xcconfig"; sourceTree = "<group>"; };
-		2FB0B8D824FD7C67AD9F7485 /* Pods-myChatUIPratice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myChatUIPratice.release.xcconfig"; path = "Pods/Target Support Files/Pods-myChatUIPratice/Pods-myChatUIPratice.release.xcconfig"; sourceTree = "<group>"; };
 		336490DBD8801EAD49E1AE87 /* libPods-ChatDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E3722FD9395E6CC64101B0 /* libPods-myChatUIPratice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myChatUIPratice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CFD7D05FC7BF86CB629948 /* Pods-ChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDemo/Pods-ChatDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BE20DBC1CEAEC30FCC893F0D /* Pods-ChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatDemo/Pods-ChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -250,8 +247,6 @@
 		56C6A7BF48280858AF8F467E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				208D1930FB73317B718BBA2A /* Pods-myChatUIPratice.debug.xcconfig */,
-				2FB0B8D824FD7C67AD9F7485 /* Pods-myChatUIPratice.release.xcconfig */,
 				BE20DBC1CEAEC30FCC893F0D /* Pods-ChatDemo.debug.xcconfig */,
 				66CFD7D05FC7BF86CB629948 /* Pods-ChatDemo.release.xcconfig */,
 			);
@@ -261,7 +256,6 @@
 		B7D876F98C3154BD7D3F6A8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				34E3722FD9395E6CC64101B0 /* libPods-myChatUIPratice.a */,
 				336490DBD8801EAD49E1AE87 /* libPods-ChatDemo.a */,
 			);
 			name = Frameworks;
