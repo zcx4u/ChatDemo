@@ -45,7 +45,7 @@
     vc4.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"我" image:[UIImage imageNamed:@"tabbar_me_22x22_"] selectedImage:[UIImage imageNamed:@"tabbar_meHL_22x22_"]];
     //tabbarItem字体颜色（被选中时）
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:34/255.0f green:139/255.0f blue:34/255.0f alpha:1]} forState:UIControlStateSelected];
-
+//ios 12.1 版本出现的tabbar异常动画的bug 透明度设置为yes会导致导航控制器返回时tabbar图标和标题frame为0从而出现预料之外的动画
     [[UITabBar appearance] setTranslucent:NO];
 //   添加rootController
     [self.window setRootViewController:root];

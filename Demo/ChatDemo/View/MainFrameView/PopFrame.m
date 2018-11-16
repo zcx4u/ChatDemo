@@ -31,6 +31,7 @@
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         button.frame = CGRectMake(0, 0+44*i, self.bounds.size.width, 44);
         [button setTitle:_name[i] forState:UIControlStateNormal];
+        button.titleLabel.textAlignment = NSTextAlignmentLeft;
         [button setImage:[UIImage imageNamed:_img[i]] forState:UIControlStateNormal];
         [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
         button.tag = i;
