@@ -139,9 +139,9 @@
 		055A5AFE217EB91600A29555 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				05A55BF7219E7369007EF9AE /* ContactView */,
 				05A17BA5219D251E00B41139 /* MasnoryTestView */,
 				05A17B9E219D0D4500B41139 /* MainFrameView */,
-				05A17BA1219D0DE100B41139 /* ContactView */,
 				05A17B9F219D0DCE00B41139 /* FindView */,
 				05A17BA0219D0DD900B41139 /* MeView */,
 			);
@@ -222,13 +222,6 @@
 			path = MeView;
 			sourceTree = "<group>";
 		};
-		05A17BA1219D0DE100B41139 /* ContactView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ContactView;
-			sourceTree = "<group>";
-		};
 		05A17BA5219D251E00B41139 /* MasnoryTestView */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +229,13 @@
 				05AB6D16218B4CA900F2BE0E /* MyView.m */,
 			);
 			path = MasnoryTestView;
+			sourceTree = "<group>";
+		};
+		05A55BF7219E7369007EF9AE /* ContactView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContactView;
 			sourceTree = "<group>";
 		};
 		05AB6D0E21899C1B00F2BE0E /* MasnoryTest */ = {
