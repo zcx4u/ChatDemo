@@ -49,7 +49,7 @@
     [self.view addSubview:_table];
     _img = @[@"contacts_add_newmessage_30x30_",@"barbuttonicon_add_cube_30x30_",@"contacts_add_scan_30x30_",@"barbuttonicon_add_30x30_"];
     _name = @[@"发起群聊",@"添加朋友",@"扫一扫",@"收付款"];
-    _pop = [[PopFrame alloc]initWithFrame:CGRectMake(0, 0, 140, 180)];
+    _pop = [[PopFrame alloc]initWithFrame:CGRectMake(0, 0, 120, 160)];
     _pop.img = _img;
     _pop.name = _name;
     _pop.delegate = self;
